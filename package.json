@@ -1,0 +1,10 @@
+{
+  "name": "realtime-app",
+  "version": "1.0.0",
+  "description": "Simple realtime app test",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js" // replace with dist/index.js if you are using typescript
+  },
+  "author": ""
+}
