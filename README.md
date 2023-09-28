@@ -12,14 +12,23 @@ and the last 10 chat messages.
 
 Use any Node.js libraries you like, but try to keep the number of dependencies low.
 
+Here's what the finished app could look like:
+
+![App sample](https://raw.githubusercontent.com/TechcastGmbH/realtime-app/main/demo.gif)
+
+As you can see, there are chat messages and push messages sent between two browser windows.
+Also, one window is reloaded to show that the messages are persisted.
+
 Further requirements:
 
+- We suggest you use socket.io for the realtime communication, but you can use any library you like
 - Data can be held in memory, storing it in a database is optional
 - The node.js app should also serve the client files from the frontend folder,
   so running `npm start` should start the server and serve the frontend (after an optional build step)
 - You can use any frontend framework you like, or just use the provided html templates with jQuery
   from the frontend folder.
 - The frontend can load libraries from a CDN, like the template in the frontend folder does
+- Please comment your code where appropriate and commit often with meaningful commit messages
 
 ## Optional Bonus Objectives
 
